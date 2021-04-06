@@ -80,7 +80,7 @@ function handleClickFemale() {
        <input
         onChange={handleChangeEvent}
         type="text"
-        placeholder="filter a list"
+        placeholder="enter a number.."
       />
  
       
