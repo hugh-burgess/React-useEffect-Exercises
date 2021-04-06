@@ -42,7 +42,7 @@ const button = document.querySelector("button")
       <User
         key={user.email}
         gender={user.gender}
-        photoUrl={user.picture.medium}
+        photoUrl={user.picture.large}
         title={user.name.title}
         first={user.name.first}
         last={user.name.last}
@@ -74,6 +74,7 @@ function handleClickFemale() {
 
   return (
     <div>
+    <h1 className="titleName">Random Friends Creator</h1>
       <p>Number of results: {users.length}</p>
       
       <div className="wrapper">
@@ -82,12 +83,12 @@ function handleClickFemale() {
         type="text"
         placeholder="enter a number.."
       />
+      </div>
  
       
       <button onClick={handleClickAll} className="headerButton" type="button" >All</button>
       <button onClick={handleClickMale} className="headerButton" type="button" >Male</button>
       <button onClick={handleClickFemale} className="headerButton" type="button" >Female</button>
-      </div>
      
       <div className="userSection">{renderPosts()}</div>
     </div>

@@ -14,13 +14,16 @@ code {
 
 .maleBox {
   background-color: blue;
-  height: 150px;
+  border-radius: 15px;
+  height: auto;
 
 }
 
 .femaleBox {
   background-color: pink;
-    height: 150px;
+  border-radius: 15px;
+    height: auto;
+
 
 }
 
@@ -42,4 +45,23 @@ flex-direction: row;
   width:30vw;
   padding:5px;
   font-size: 10px;
+
+}
+
+.profilePic {
+  border-radius: 50%;
+  height: 10vh;
+  margin: 5px;
+}
+
+.titleName {
+  font-size: 1.5em;
+}
+
+.titleName {
+  padding: 5px;
+}
+
+.genderType {
+  padding:5px;
 }
