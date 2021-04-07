@@ -5,20 +5,20 @@ function Counter() {
   // Your code below
 
   useEffect(() => {
-    const storageBack = localStorage.getItem("count") ?? "";
+    const storageBack = Number(localStorage.getItem("count") ?? 0);
     setCount(storageBack);
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("count", Number(count));
+    localStorage.setItem("count", count);
   }, [count]);
 
   function handleDecrement() {
-    setCount(Number(count) - 1);
+    setCount(count - 1);
   }
 
   function handleIncrement() {
-    setCount(Number(count) + 1);
+    setCount(count + 1);
   }
 
   return (
