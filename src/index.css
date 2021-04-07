@@ -15,16 +15,15 @@ code {
 .maleBox {
   background-color: blue;
   border-radius: 15px;
-  height: auto;
-
+  height: 170px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.91);
 }
 
 .femaleBox {
   background-color: pink;
   border-radius: 15px;
-    height: auto;
-
-
+  height: 170px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.91);
 }
 
 .wrapper {
@@ -32,36 +31,36 @@ code {
   justify-content: space-around;
 }
 
-
-
 .userSection {
   width: 100%;
   display: flex;
-flex-wrap:wrap;
-flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .userBox {
-  width:30vw;
-  padding:5px;
+  width: 30vw;
+  padding: 5px;
   font-size: 10px;
-
 }
 
 .profilePic {
   border-radius: 50%;
   height: 10vh;
-  margin: 5px;
 }
 
-.titleName {
-  font-size: 1.5em;
+.boxName {
+  font-size: 1.2em;
+  padding: 5px;
 }
 
 .titleName {
   padding: 5px;
+  text-shadow: 4px 4px 4px rgba(206, 89, 55, 0.93);
 }
 
 .genderType {
-  padding:5px;
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: medium;
 }
